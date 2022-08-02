@@ -1,6 +1,26 @@
 
 
+i.fa-brands.fa-github:hover{
+    color: rgb(0, 0, 0)
+}
+i.fa-brands.fa-instagram:hover{
+   color:rgb(235, 102, 102)
+}
+i.fa-brands.fa-linkedin:hover{
+    color: rgb(39, 123, 233);
+}
 
-button.btn.btn-secondary:hover{
-    color: rgb(0, 0, 0);
+i.fa-brands.fa-github{
+    color: rgb(255, 255, 255)
+}
+i.fa-brands.fa-instagram{
+   color:rgb(255, 255, 255)
+}
+i.fa-brands.fa-linkedin{
+    color: rgb(255, 255, 255);
+}
+
+li.nav-item.list-group-item{
+    background: rgba(0, 0, 0, 0);
+    border: 0cm;
 }
