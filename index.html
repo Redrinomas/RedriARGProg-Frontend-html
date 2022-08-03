@@ -17,68 +17,168 @@
 
 <header>
 
-  <nav class="navbar navbar-expand-lg bg-dark">
+
+  <div>
+  <nav  id="menu" class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="Assets/IMG/APLogo-20-20.png" width="12%" class="d-inline-block align-text-top">
-      </a>
-      
-      <ul class="nav justify-content-end list-group list-group-horizontal">
-        <li class="nav-item list-group-item">
-          <i class="fa-brands fa-instagram fa-2x"></i>
-        </li>
-        <li class="nav-item list-group-item">
-          <i class="fa-brands fa-linkedin fa-2x"></i>
-        </li>
-        <li class="nav-item list-group-item">
-          <i class="fa-brands fa-github fa-2x"></i>
-        </li>
-      </ul>
-
-            <!-- Boton modal -->
-      <button type="link" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Login
+      <a class="navbar-brand" href="#">  <img src="Assets/IMG/APLogo-20-20.png" width="15%" class="d-inline-block align-text-top"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          
 
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="staticEmail" value="">
+          <ul class="nav justify-content-end list-group list-group-horizontal">
+            <li class="nav-item list-group-item">
+              <i class="fa-brands fa-instagram fa-2x"></i>
+            </li>
+            <li class="nav-item list-group-item">
+              <i class="fa-brands fa-linkedin fa-2x"></i>
+            </li>
+            <li class="nav-item list-group-item">
+              <i class="fa-brands fa-github fa-2x"></i>
+            </li>
+            
+            
+            <button type="link" class="btn btn-secondary justify-content-end" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Login
+            </button>
+      
+      
+            <div class="modal fade justify-content-end" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3 row">
+                      <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="staticEmail" value="">
+                      </div>
+                    </div>
+                    <div class="mb-3 row">
+                      <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Aceptar</button>
+                  </div>
                 </div>
               </div>
-              <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-                <div class="col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword">
-                </div>
-              </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary">Aceptar</button>
-            </div>
+          </ul>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  </div>
+
+
+</header>
+<!-- Banner -->
+<body>
+  <section class="Banner">
+  <div class="row justify-content-center">
+    <div class="col-3 mt-4">
+      <img src="assets/IMG/Foto.jpg" class="rounded-circle" width="60%">
+      <h1 class="text-center">Rodrigo Ayala</h1>
+      <h5 class="text-center">Full stack developer jr.</h5>
+    </div>
+
+    <div class="col-8 mt-4">  
+      <section id="About-me" class="about text-center mx-auto jbl rounded-5
+      border-radius">
+      <h1  style="color:#fff;">SOBRE MI</h1>
+      <h3  style="color:#fff;"> ipsum dolor sit amet consectetur adipisicing elit. Aperiam incidunt ducimus commodi molestias. Blanditiis et nulla veritatis perferendis. Veritatis ut et similique sequi corporis atque quisquam neque assumenda maiores possimus?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sapiente consectetur in ratione ullam quo repellat error quod, voluptatem, sequi aspernatur nesciunt quas fuga quia ipsum doloribus quaerat pariatur maiores!
+        ipsum dolor sit amet consectetur adipisicing elit. Aperiam incidunt ducimus commodi molestias. Blanditiis et nulla veritatis perferendis. Veritatis ut et similique sequi corporis atque quisquam neque assumenda maiores possimus?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sapiente consectetur in ratione ullam quo repellat error quod, voluptatem, sequi aspernatur nesciunt quas fuga quia ipsum doloribus quaerat pariatur maiores!
+      </h3>
+      </div>
+    </section>
+    <!-- Educacion -->
+      <section>
+      <div class="row section featured topspace text-center">
+        <h2 class="section-title text-center border-top pb-4"><span>Educación</span></h2>
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-3">
+            <h3 class="text-center">Informatorio Etapa 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nihil quaerat perferendis non commodi, delectus blanditiis dolore nostrum, earum expedita aliquid sunt laudantium necessitatibus autem similique quas dolores laboriosam. Aliquam?</p>
+            <p class="text-center"><a href="" class="btn btn-secondary btn-action">Ver certificado</a></p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <h3 class="text-center">Informatorio Etapa 2</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At minima mollitia rem veniam excepturi recusandae molestias beatae, rerum sit itaque quae possimus omnis nemo laboriosam expedita quidem ipsa. Vero, amet!</p>
+            <p class="text-center"><a href="" class="btn btn-secondary btn-action">Ver certificado</a></p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <h3 class="text-center">Introduccion a la programacion con python</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam autem molestias hic esse a facilis sequi iusto, obcaecati sint reiciendis quod recusandae animi, commodi temporibus ipsum at error. Odio, cumque?</p>
+            <p class="text-center"><a href="" class="btn btn-secondary btn-action">Ver certificado</a></p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <h3 class="text-center">Argentina Programa</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, quaerat deleniti maiores consequuntur voluptatum non doloribus officia rem suscipit. Est ab pariatur distinctio, corrupti eligendi modi tempore voluptas omnis quo?</p>
+            <p class="text-center"><a href="" class="btn btn-secondary btn-action">Ver certificado</a></p>
           </div>
         </div>
       </div>
+      </section>
+      
+      <!-- SKILLS -->
+      <section class="pb-5">
+        <div class="row section featured topspace text-center">
+          <h2 class="section-title text-center border-top pb-4"><span>SKILL</span></h2>
+        
+        <div class="col-sm-6 col-md-3">
+          <h4>HTML</h4>
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        </div>
 
-    </div>
-  </nav>
 
-</header>
+        <div class="col-sm-6 col-md-3">
+          <h4>JavaScript</h4>
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        </div>
 
-<body>
-  
+        <div class="col-sm-6 col-md-3">
+          <h4>TypeScript</h4>
+        <div class="progress">
+          <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 25%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <h4>Python</h4>
+        <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+
+      </section>
+
+
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
+    
+  <script src="assets/scripts.js"></script>
 
 </body>
 
