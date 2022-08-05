@@ -18,16 +18,16 @@
 <header>
 
 
-  <div>
-  <nav  id="menu" class="navbar navbar-expand-lg bg-dark">
+  <div id="menu">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">  <img src="Assets/IMG/APLogo-20-20.png" width="15%" class="d-inline-block align-text-top"></a>
+      <a class="navbar-brand"> <img src="Assets/IMG/APLogo-20-20.png" width="15%" class="d-inline-block align-text-top"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
           
           
 
@@ -43,7 +43,7 @@
             </li>
             
             
-            <button type="link" class="btn btn-secondary justify-content-end" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="link" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Login
             </button>
       
@@ -52,7 +52,7 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <h5 class="modal-title " id="exampleModalLabel">Login</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -91,25 +91,40 @@
   <div class="row justify-content-center">
     <div class="col-3 mt-4">
       <img src="assets/IMG/Foto.jpg" class="rounded-circle" width="60%">
+      <div class="jbl rounded-5
+      border-radius">
       <h1 class="text-center">Rodrigo Ayala</h1>
       <h5 class="text-center">Full stack developer jr.</h5>
+      </div>
     </div>
 
+    <!-- SOBRE MI -->
     <div class="col-8 mt-4">  
       <section id="About-me" class="about text-center mx-auto jbl rounded-5
       border-radius">
-      <h1  style="color:#fff;">SOBRE MI</h1>
+      
+      <div class="row mb-3">
+        <div class="col-sm-6 py-2"><h4>Fecha de nacimiento: <span style="color:#fff;">7/10/1997</span></h4></div>
+        <div class="col-sm-6 py-2"><h4>Experiencia: <span style="color:#fff;">1 año</span></h4></div>
+        <div class="col-sm-6 py-2"><h4>Telefono: <span style="color:#fff;">012 345 6789</span></h4></div>
+        <div class="col-sm-6 py-2"><h4>Email: <span style="color:#fff;">ejemplo@ejemplo.com</span></h4></div>
+      </div>
+
       <h3  style="color:#fff;"> ipsum dolor sit amet consectetur adipisicing elit. Aperiam incidunt ducimus commodi molestias. Blanditiis et nulla veritatis perferendis. Veritatis ut et similique sequi corporis atque quisquam neque assumenda maiores possimus?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sapiente consectetur in ratione ullam quo repellat error quod, voluptatem, sequi aspernatur nesciunt quas fuga quia ipsum doloribus quaerat pariatur maiores!
-        ipsum dolor sit amet consectetur adipisicing elit. Aperiam incidunt ducimus commodi molestias. Blanditiis et nulla veritatis perferendis. Veritatis ut et similique sequi corporis atque quisquam neque assumenda maiores possimus?
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sapiente consectetur in ratione ullam quo repellat error quod, voluptatem, sequi aspernatur nesciunt quas fuga quia ipsum doloribus quaerat pariatur maiores!
       </h3>
       </div>
     </section>
+   
     <!-- Educacion -->
       <section>
-      <div class="row section featured topspace text-center">
-        <h2 class="section-title text-center border-top pb-4"><span>Educación</span></h2>
+        <div class="row section featured topspace text-center">
+        <div class="container border-top">
+          <div class="d-flex align-items-center justify-content-center">
+              <h1 class="display-1 text-blak" style="-webkit-text-stroke: 1px #000000;">Educación</h1>
+              <h1 class="position-absolute text-white">Educación</h1>
+          </div>
+
         <div class="row text-center">
           <div class="col-sm-6 col-md-3">
             <h3 class="text-center">Informatorio Etapa 1</h3>
@@ -136,10 +151,16 @@
       </section>
       
       <!-- SKILLS -->
+
+      <div class="container  border-top">
+        <div class="d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-blak" style="-webkit-text-stroke: 1px #000000;">Skills</h1>
+            <h1 class="position-absolute text-uppercase text-white">Skills</h1>
+        </div>
+
       <section class="pb-5">
         <div class="row section featured topspace text-center">
-          <h2 class="section-title text-center border-top pb-4"><span>SKILL</span></h2>
-        
+
         <div class="col-sm-6 col-md-3">
           <h4>HTML</h4>
         <div class="progress">
@@ -171,6 +192,53 @@
 
       </section>
 
+
+      <section>
+
+
+        <div class="container-fluid pt-5" id="service">
+          <div class="container border-top">
+              <div class="d-flex align-items-center justify-content-center">
+                  <h1 class="display-1 text-uppercase text-blak" style="-webkit-text-stroke: 1px #000000;">Proyectos</h1>
+                  <h1 class="position-absolute text-uppercase text-white">Proyectos</h1>
+              </div>
+              <div class="row pb-3">
+                  <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="rounded-5 text-bg-dark" style="width: 18rem;">
+                      <img src="https://images.pexels.com/photos/1921326/pexels-photo-1921326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top rounded-5" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="" class="btn btn-secondary btn-action">Ver mas</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="text-bg-dark rounded-5" style="width: 18rem;">
+                      <img src="https://images.pexels.com/photos/1089440/pexels-photo-1089440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top rounded-5" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="" class="btn btn-secondary btn-action">Ver mas</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="text-bg-dark rounded-5" style="width: 18rem;">
+                      <img src="https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top rounded-5" alt="...">
+                      <div class="card-body ">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="" class="btn btn-secondary btn-action">Ver mas</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      </section>
 
 
 
